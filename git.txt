@@ -1,0 +1,17 @@
+git init
+git add .
+git commit -m "mon CV"
+
+//Afficher le status des fichiers
+git status
+
+//Afficher les branches
+git branch
+//
+git checkout MABRANCHE
+
+-> création d'un répo dans github
+//liaison avec le repo
+git remote add origin https://github.com/HatemAouadi/projetWeb.git
+//envoi vers le serveur
+git push -u origin main
